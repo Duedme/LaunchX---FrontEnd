@@ -6,45 +6,74 @@
         <meta name="description" content="Mi lista de compras">
         <title>Pastalón</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="estilos/style.css">
     </head>
 <header>
-    <h1>¡Bienvenido!</h1>
-    <img src="./imagenes/Pastalón.png" alt="Logo de Pastelería en forma de pantalón." width="150px">
+    <h1 id="Bienvenido">¡Bienvenido!</h1>
+    <p style="text-align: center;"><img src="./imagenes/Pastalón.png" alt="Logo de Pastelería en forma de pantalón." width="150px"></p>
+
+    <nav>
+        <ul class="main-nav">
+            <li class="main-nav_item"><a href="./paginas/pastelero.html">Querido Pastelero</a></li>
+            <li class="main-nav_item"><a href="./paginas/pedido.html">Pide tu Pastel</a></li>
+        </ul>
+    </nav>
+
 </header>
 
 <body>
     <br>
-    <h2>Menú:</h2>
+    <h2 id="menu">Menú:</h2>
 
+    <section>
+        <h3>Sabores:</h3>
+        <figure class="sabores-imagenes">
+            <table class="tabla">
+                <tr>
+                    <td class="tabla-imagen"><img src="./imagenes/platano.jpeg" alt="Pastel de Plátano" width="200px"></td>
+                    <td class="tabla-imagen"><img src="./imagenes/chocolate.jpeg" alt="Pastel de Chocolate" width="200px"></td>
+                    <td class="tabla-imagen"><img src="./imagenes/fresa.jpeg" alt="Pastel de Fresa" width="200px"></td>
+                    <td class="tabla-imagen"><img src="./imagenes/vainilla.jpeg"  alt="Pastel de Vainilla" width="200px"></td>
+                    <td class="tabla-imagen"><img src="./imagenes/napolitano.jpeg" alt="Pastel de Napolitano" width="200px"></td>
+                </tr>
+                <tr>
+                    <td class="tabla-pala"><p>Plátano</p></td>
+                    <td class="tabla-pala"><p>Chocolate</p></td>
+                    <td class="tabla-pala"><p>Fresa</p></td>
+                    <td class="tabla-pala"><p>Vainilla</p></td>
+                    <td class="tabla-pala"><p>Napolitano</p></td>
+                </tr>
+            </table>
+        </figure>
+    </section>
 
-    <h3>Sabores:</h3>
-        <ul>
-            <li>Plátano</li>
-            <li>Chocolate</li>
-            <li>Fresa</li>
-            <li>Vainilla</li>
-            <li>Napolitano</li>
-        </ul>
+    <section>
+        <h3>Adornos</h3>
+            <figure class="adornos-imagenes">
 
-    <h3>Adornos</h3>
-        <dl>
-            <ul>
-                <li>
-                    <dt>Pantalón</dt>
-                    <dd>Se le colocará un pantalón de chocolate arriba del pastel.</dd>
-                </li>
-                <li>
-                    <dt>Short</dt>
-                    <dd>Habrá un short o 'cortos' en el borde de tu pastel.</dd>
-                </li>
-                <li>
-                    <dt>Deportivo</dt>
-                    <dd>Habrán pantalones de ejercicio parados sobre tu pastel, para aquellos que sí salen a correr.</dd>
-                </li>
-            </ul>
-        </dl>
+                <table class="tabla2">
+                    <tr>
+                        <td class="tabla2-imagen"><img src="./imagenes/jeans.jpeg" alt="Textura de Jeans" width="200px"></td>
+                        <td class="tabla2-imagen"><img src="./imagenes/caqui.jpeg" alt="Textura Caqui" width="200px"></td>
+                        <td class="tabla2-imagen"><img src="./imagenes/deportivo.jpeg" alt="Textura Deportiva" width="110px"></td>
+                    </tr>
+                    <tr>
+                        <td class="tabla2-pala"><p>Pantalón: <br> Le da una textura de Jeans a tu pastel</p></td>
+                        <td class="tabla2-pala"><p>Caqui: <br> Le da una textura de Caqui a tu pastel</p></td>
+                        <td class="tabla2-pala"><p>Deportivo: <br> Le da una textura de pantalón Deportivo a tu pastel</p></td>
+                    </tr>
+                </table>
+            </figure>
+    </section>
+</body>
 
-    <h2>¡Haz tu pedido!</h2>
-    <a href="./paginas/pedido.html">¡Pide ya!</a>
+<footer>
+    <hr>
+
+    <ul class="footer">
+        <li class="footer_item">Dirección: Avenida Siempre Viva 94</li>
+        <li class="footer_item">Número de Contacto: 01 800 Pastalón</li>
+        <li class="footer_item">Atención de 13:00 - 14:00</li>
+    </ul>
+</footer>
 </html>
