@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="charset" content="UTF-8">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="Mi lista de compras">
+        <title>Pedidos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+<header>
+    <h1>Pedidos</h1>
+    <h3>¡Aquí podrás ordenar el sabor y los adornos de tu pastel!</h3>
+</header>
+
+<body>
+    <main>
+
+        <form action="">
+            <p>Por favor selecciona el sabor de tu pastel:</p>
+            <input type="radio" id="platano" name="platano" value="platano">
+            <label for="platano">Plátano</label>
+            <input type="radio" id="chocolate" name="chocolate" value="chocolate">
+            <label for="chocolate">Chocolate</label>
+            <input type="radio" id="fresa" name="fresa" value="fresa">
+            <label for="fresa">Fresa</label>
+            <input type="radio" name="vainilla" id="vainilla" value="vainilla">
+            <label for="vainilla">Vainilla</label>
+            <input type="radio" name="napolitano" id="napolitano" value="napolitano">
+            <label for="napolitano">Napolitano</label>
+
+            <p>Por favor selecciona el adorno de tu pastel (opcional):</p>
+            <input type="radio" id="pantalon" name="pantalon" value="pantalon">
+            <label for="pantalon">Pantalón</label>
+            <input type="radio" id="short" name="short" value="short">
+            <label for="short">Short (cortos)</label>
+            <input type="radio" id="deportes" name="deportes" value="deportes">
+            <label for="deportes">Deportivo</label>
+
+            <br><br>
+
+            <label for="descripcion">
+                <span>Descripción</span>
+                <input type="text" id="descripcion" placeholder="Pastel redondo">
+            </label>
+        </form>
+    </main>
+
+    <form action="">
+    <h3>Por favor entregue los datos para realizar la entrega</h3>
+        <label for="nombre">
+            <span>Por favor escriba su nombre</span>
+            <input type="text" id="nombre" placeholder="Vicente Fernández">
+        </label>
+        <label for="telefono">
+            <span>Su número de teléfono</span>
+            <input type="tel" id="telefono" placeholder="5535576608">
+        </label>
+        <label for="correo">
+            <span>Su correo electrónico</span>
+            <input type="email" id="correo" placeholder="correo@correo.com">
+        </label>
+
+        <br><br>
+        <input type="submit">
+    </form>
+
+    <hr>
+    <a href="../index.html">Regresar al Menú</a>
+</body>
+
+</html>
