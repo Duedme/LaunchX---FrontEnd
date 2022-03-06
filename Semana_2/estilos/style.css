@@ -1,0 +1,84 @@
+html{
+    background-color: pink;
+}
+
+#Bienvenido{
+    text-align: center;
+}
+
+#menu{
+    text-align: center;
+}
+
+.main-nav{
+    text-align: center;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color:darkcyan;
+}
+
+.main-nav_item{
+    display: inline-block;
+}
+
+.main-nav_item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav_item a:hover{
+    color: pink;
+}
+
+.main-nav_item a:active{
+    color: brown;
+}
+
+.main-nav_item a::after{
+    content: " | ";
+}
+
+.main-nav_item a::before{
+    content: " | ";
+}
+
+.tabla{
+    text-align: center;
+}
+
+.tabla-pala{
+    color: darkcyan;
+    text-align: center;
+}
+
+.tabla2{
+    width: 100%;
+    text-align: center;
+}
+
+.tabla2-pala{
+    color: darkcyan;
+}
+
+.footer{
+    list-style: none;
+    text-align: center;
+
+}
+
+.footer_item{
+    display: inline-block;
+}
+
+.footer_item::after{
+    content: " | ";
+    color: darkcyan;
+}
+
+.footer_item::before{
+    content: " | ";
+    color: darkcyan;
+}
